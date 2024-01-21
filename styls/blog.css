@@ -32,14 +32,47 @@ nav a{
 /* header styls */
 .header{
     background-color:wheat;
+    background-image:url('../imgs/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner.propic{
+  
     width: 500px;
+}
+.banner-wc{
+    font-size: 45px;
+    color:grey;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 55px;
+    margin-top: 5px;
+   
+}
+/* main section */
+/* about section */
+.about{
+    padding: 130px;
+    text-align: center;
+    font-size: 25px;
+    background-color: antiquewhite;
+}
+.about-info{
+    border: 2px solid aquamarine;
+    font-size: 10px;
+    margin: 4px;
 }
 
 
