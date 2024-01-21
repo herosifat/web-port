@@ -1,0 +1,70 @@
+/* common styls */
+body{
+    font-family:'lato',sans-serif;
+    font-family:'open sens'sans-serif;
+}
+.primary{
+    background-color: orangered;
+    border: 0;
+    color: wheat;
+    padding: 15px 35px;
+}
+/* nav related css */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#o{
+    color:orangered;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
