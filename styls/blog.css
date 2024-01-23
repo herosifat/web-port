@@ -62,17 +62,35 @@ nav a{
    
 }
 /* main section */
+main{
+    max-width: 1110px;
+    margin: 0 auto
+}
 /* about section */
 .about{
     padding: 130px;
     text-align: center;
     font-size: 25px;
     background-color: antiquewhite;
+    /* max-width:1140px; */
+    height: 500px;
 }
 .about-info{
     border: 2px solid aquamarine;
     font-size: 10px;
     margin: 4px;
+}
+.about-infocon{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+}
+.about-sec{
+    text-align: center;
+    justify-content: space-around;
+}
+.about-title{
+    color: grey;
 }
 
 
